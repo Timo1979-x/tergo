@@ -3,6 +3,7 @@
 
 #pragma once
 
+// прошивка двойным нажатием на сброс https://docs.qmk.fm/platformdev_rp2040#double-tap
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP25
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
