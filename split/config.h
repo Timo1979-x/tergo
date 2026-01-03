@@ -44,3 +44,9 @@
 #define OLED_DISPLAY_128X64
 
 #define DEBUG_MATRIX_SCAN_RATE
+
+/**
+ * по состоянию этого пина прошивка определяет, работает она на левой части клавы или на правой
+ * VCC - левая часть, GND - правая
+ */
+#define SPLIT_HAND_PIN GP22
