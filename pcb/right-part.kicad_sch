@@ -59,6 +59,24 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
@@ -269,208 +287,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GNDA_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GNDA_2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -736,7 +552,214 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PKLCS1212E4001-R1:PKLCS1212E4001-R1"
+		(symbol "_kbd:MJ-4PP-9"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MJ-4PP-9"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptable stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MJ-4PP-9_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 -1.905)
+					(end -3.175 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -0.635 -1.27) (xy 0 -1.905) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0.635 0) (xy 1.27 -0.635) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.905 1.27) (xy 2.54 0.635) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 2.54)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MJ-4PP-9_1_1"
+				(pin input line
+					(at 5.08 1.905 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0.635 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -0.635 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -1.905 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_kbd:SW_PUSH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -747,8 +770,119 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_PUSH"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_PUSH_0_1"
+				(rectangle
+					(start -4.318 1.27)
+					(end 4.318 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_speaker:PKLCS1212E4001-R1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "LS"
-				(at -3.81 8.9154 0)
+				(at -3.82 8.9133 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,7 +891,7 @@
 				)
 			)
 			(property "Value" "PKLCS1212E4001-R1"
-				(at -3.8354 -11.4808 0)
+				(at -3.823 -11.469 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -765,23 +899,22 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SPKR_PKLCS1212E4001-R1"
+			(property "Footprint" "_speaker:SPKR_PKLCS1212E4001-R1"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "Murata Electronics"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -794,42 +927,134 @@
 					(hide yes)
 				)
 			)
-			(property "Field4" "January 22, 2018"
+			(property "MF" "Murata"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Field5" "Manufacturer Recommendations"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Field6" "3.0 mm"
+			(property "Package" "SMD-2 Murata"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Price" "None"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "January 22, 2018"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PKLCS1212E4001-R1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4970519&manufacturer=Murata&part_name=PKLCS1212E4001-R1&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 1.5 V - 4kHz 84dB @ 1.5V, 10cm Surface Mount Solder Pads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(symbol "PKLCS1212E4001-R1_0_0"
@@ -1022,775 +1247,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VDD_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "kbd:MJ-4PP-9"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MJ-4PP-9"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 6.985 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 6.985 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptable stereo headphones TRRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MJ-4PP-9_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 1.905) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.905 -1.905)
-					(end -3.175 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.905) (xy -0.635 -1.27) (xy 0 -1.905) (xy 3.175 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 0.635 0) (xy 1.27 -0.635) (xy 3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.635) (xy 1.905 1.27) (xy 2.54 0.635) (xy 3.175 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.175 2.54)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MJ-4PP-9_1_1"
-				(pin input line
-					(at 5.08 1.905 180)
-					(length 2.0066)
-					(name "~"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0.7112 0.7112)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0.635 180)
-					(length 2.0066)
-					(name "~"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 0.7112 0.7112)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -0.635 180)
-					(length 2.0066)
-					(name "~"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0.7112 0.7112)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -1.905 180)
-					(length 2.0066)
-					(name "~"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 0.7112 0.7112)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "kbd:SW_PUSH"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 3.81 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_PUSH"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_PUSH_0_1"
-				(rectangle
-					(start -4.318 1.27)
-					(end 4.318 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VDD"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "yoichiro:Raspberry_Pie_Pico"
+		(symbol "_yoichiro:Raspberry_Pi_Pico"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1805,7 +1262,7 @@
 					)
 				)
 			)
-			(property "Value" "Raspberry_Pie_Pico"
+			(property "Value" "Raspberry_Pi_Pico"
 				(at 0.0508 -27.4574 0)
 				(effects
 					(font
@@ -1840,7 +1297,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Raspberry_Pie_Pico_0_0"
+			(symbol "Raspberry_Pi_Pico_0_0"
 				(pin bidirectional line
 					(at -11.43 24.13 0)
 					(length 2.54)
@@ -2562,16 +2019,343 @@
 					)
 				)
 			)
-			(symbol "Raspberry_Pie_Pico_0_1"
+			(symbol "Raspberry_Pi_Pico_0_1"
 				(rectangle
 					(start -8.89 26.162)
 					(end 8.89 -25.654)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4747,7 +4531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 43.18 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4771,7 +4555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 43.18 114.3 0)
 			(effects
 				(font
@@ -4839,7 +4623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -4857,7 +4641,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -4882,7 +4684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 43.18 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4906,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 43.18 127 0)
 			(effects
 				(font
@@ -4974,7 +4776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -4992,7 +4794,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -5017,7 +4837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 43.18 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5041,7 +4861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 43.18 139.7 0)
 			(effects
 				(font
@@ -5109,7 +4929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 50.8 143.51 0)
 			(effects
 				(font
@@ -5127,7 +4947,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 50.8 143.51 0)
 			(effects
 				(font
@@ -5152,7 +4990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 60.96 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5176,7 +5014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -5244,7 +5082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 68.58 118.11 0)
 			(effects
 				(font
@@ -5262,7 +5100,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 68.58 118.11 0)
 			(effects
 				(font
@@ -5287,7 +5143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 60.96 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5311,7 +5167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 60.96 127 0)
 			(effects
 				(font
@@ -5379,7 +5235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -5397,7 +5253,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -5422,7 +5296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 60.96 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5446,7 +5320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 60.96 139.7 0)
 			(effects
 				(font
@@ -5514,7 +5388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -5532,7 +5406,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 68.58 143.51 0)
 			(effects
 				(font
@@ -5557,7 +5449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 78.74 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5581,7 +5473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 78.74 114.3 0)
 			(effects
 				(font
@@ -5649,7 +5541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -5667,7 +5559,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -5692,7 +5602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 78.74 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5716,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 78.74 127 0)
 			(effects
 				(font
@@ -5784,7 +5694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -5802,7 +5712,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 130.81 0)
 			(effects
 				(font
@@ -5827,7 +5755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 78.74 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5851,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 78.74 139.7 0)
 			(effects
 				(font
@@ -5919,7 +5847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -5937,7 +5865,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -5962,7 +5908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 43.18 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5986,7 +5932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 43.18 152.4 0)
 			(effects
 				(font
@@ -6054,7 +6000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 50.8 156.21 0)
 			(effects
 				(font
@@ -6072,7 +6018,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 50.8 156.21 0)
 			(effects
 				(font
@@ -6097,7 +6061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 96.52 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6121,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -6189,7 +6153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -6207,7 +6171,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -6232,7 +6214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 96.52 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6256,7 +6238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 96.52 127 0)
 			(effects
 				(font
@@ -6324,7 +6306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -6342,7 +6324,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -6367,7 +6367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 96.52 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6391,7 +6391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 96.52 139.7 0)
 			(effects
 				(font
@@ -6459,7 +6459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 104.14 143.51 0)
 			(effects
 				(font
@@ -6477,7 +6477,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 143.51 0)
 			(effects
 				(font
@@ -6502,7 +6520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 96.52 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6526,7 +6544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 96.52 152.4 0)
 			(effects
 				(font
@@ -6594,7 +6612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 104.14 156.21 0)
 			(effects
 				(font
@@ -6612,7 +6630,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 156.21 0)
 			(effects
 				(font
@@ -6637,7 +6673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 114.3 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6661,7 +6697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 114.3 114.3 0)
 			(effects
 				(font
@@ -6729,7 +6765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -6747,7 +6783,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -6772,7 +6826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 114.3 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6796,7 +6850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 114.3 127 0)
 			(effects
 				(font
@@ -6864,7 +6918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -6882,7 +6936,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -6907,7 +6979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 114.3 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6931,7 +7003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 114.3 139.7 0)
 			(effects
 				(font
@@ -6999,7 +7071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 121.92 143.51 0)
 			(effects
 				(font
@@ -7017,7 +7089,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 121.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 121.92 143.51 0)
 			(effects
 				(font
@@ -7042,7 +7132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 114.3 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7066,7 +7156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 114.3 152.4 0)
 			(effects
 				(font
@@ -7134,7 +7224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 121.92 156.21 0)
 			(effects
 				(font
@@ -7152,7 +7242,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 121.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 121.92 156.21 0)
 			(effects
 				(font
@@ -7177,7 +7285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 132.08 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7201,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -7269,7 +7377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -7287,7 +7395,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -7312,7 +7438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 132.08 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7336,7 +7462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 132.08 127 0)
 			(effects
 				(font
@@ -7404,7 +7530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 139.7 130.81 0)
 			(effects
 				(font
@@ -7422,7 +7548,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 130.81 0)
 			(effects
 				(font
@@ -7447,7 +7591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 132.08 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7471,7 +7615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 132.08 139.7 0)
 			(effects
 				(font
@@ -7539,7 +7683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 139.7 143.51 0)
 			(effects
 				(font
@@ -7557,7 +7701,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 143.51 0)
 			(effects
 				(font
@@ -7582,7 +7744,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 132.08 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7606,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -7674,7 +7836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -7692,7 +7854,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 139.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -7760,7 +7940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 158.75 186.69 0)
 			(effects
 				(font
@@ -7826,7 +8006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 158.75 186.69 0)
 			(effects
 				(font
@@ -7891,7 +8071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 168.91 186.69 0)
 			(effects
 				(font
@@ -7956,7 +8136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 168.91 186.69 0)
 			(effects
 				(font
@@ -7978,7 +8158,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VDD_1")
 		(lib_id "power:VDD")
 		(at 77.47 21.59 0)
 		(unit 1)
@@ -8044,7 +8223,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GNDA_1")
 		(lib_id "power:GNDA")
 		(at 76.2 33.02 0)
 		(unit 1)
@@ -8110,7 +8288,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GNDA_2")
 		(lib_id "power:GNDA")
 		(at 20.32 29.21 0)
 		(unit 1)
@@ -8176,7 +8353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 254 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8200,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:ResetSW_1side"
+		(property "Footprint" "_kbd:ResetSW"
 			(at 254 26.67 0)
 			(effects
 				(font
@@ -8285,7 +8462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 261.62 26.67 0)
 			(effects
 				(font
@@ -8307,7 +8484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:MJ-4PP-9")
+		(lib_id "_kbd:MJ-4PP-9")
 		(at 250.19 43.815 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8331,7 +8508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:MJ-4PP-9_1side"
+		(property "Footprint" "_kbd:MJ-4PP-9"
 			(at 257.175 39.37 0)
 			(effects
 				(font
@@ -8349,7 +8526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
 			(at 250.19 43.815 0)
 			(effects
 				(font
@@ -8423,7 +8600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 260.35 39.37 0)
 			(effects
 				(font
@@ -8488,7 +8665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 261.62 48.26 0)
 			(effects
 				(font
@@ -8536,7 +8713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Yoichiro:LED_WS2812B"
+		(property "Footprint" "_yoichiro:LED_WS2812B"
 			(at 257.81 123.19 0)
 			(effects
 				(font
@@ -8613,7 +8790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Yoichiro:LED_WS2812B"
+		(property "Footprint" "_yoichiro:LED_WS2812B"
 			(at 242.57 123.19 0)
 			(effects
 				(font
@@ -8690,7 +8867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Yoichiro:LED_WS2812B"
+		(property "Footprint" "_yoichiro:LED_WS2812B"
 			(at 227.33 123.19 0)
 			(effects
 				(font
@@ -8767,7 +8944,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Yoichiro:LED_WS2812B"
+		(property "Footprint" "_yoichiro:LED_WS2812B"
 			(at 212.09 123.19 0)
 			(effects
 				(font
@@ -8844,7 +9021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Yoichiro:LED_WS2812B"
+		(property "Footprint" "_yoichiro:LED_WS2812B"
 			(at 214.63 156.21 0)
 			(effects
 				(font
@@ -8921,7 +9098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Yoichiro:LED_WS2812B"
+		(property "Footprint" "_yoichiro:LED_WS2812B"
 			(at 229.87 156.21 0)
 			(effects
 				(font
@@ -9015,7 +9192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 276.86 121.92 0)
 			(effects
 				(font
@@ -9080,7 +9257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 243.84 156.21 0)
 			(effects
 				(font
@@ -9102,7 +9279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "yoichiro:Raspberry_Pie_Pico")
+		(lib_id "_yoichiro:Raspberry_Pi_Pico")
 		(at 49.53 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9126,7 +9303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:Raspberry_Pi_Pico"
+		(property "Footprint" "_yoichiro:Raspberry_Pi_Pico"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -9283,7 +9460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PKLCS1212E4001-R1:PKLCS1212E4001-R1")
+		(lib_id "_speaker:PKLCS1212E4001-R1")
 		(at 232.41 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9309,13 +9486,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yoichiro:SPKR_PKLCS1212E4001-R1"
+		(property "Footprint" "_speaker:SPKR_PKLCS1212E4001-R1"
 			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9325,7 +9502,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9365,6 +9541,136 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-2 Murata"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=eda"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "January 22, 2018"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=snap"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PKLCS1212E4001-R1"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4970519&manufacturer=Murata&part_name=PKLCS1212E4001-R1&search_term=None"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 1.5 V - 4kHz 84dB @ 1.5V, 10cm Surface Mount Solder Pads"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -9427,7 +9733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 232.41 48.26 0)
 			(effects
 				(font
@@ -9473,7 +9779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Resistor-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Resistor-Hybrid-Back"
 			(at 228.6 36.322 90)
 			(effects
 				(font
@@ -9516,7 +9822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 60.96 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9540,7 +9846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -9582,7 +9888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 132.08 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9606,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -9674,7 +9980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 50.8 105.41 0)
 			(effects
 				(font
@@ -9692,7 +9998,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 50.8 105.41 0)
 			(effects
 				(font
@@ -9717,7 +10041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 114.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9741,7 +10065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 114.3 101.6 0)
 			(effects
 				(font
@@ -9809,7 +10133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 86.36 105.41 0)
 			(effects
 				(font
@@ -9827,7 +10151,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 105.41 0)
 			(effects
 				(font
@@ -9852,7 +10194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 43.18 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9876,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 43.18 101.6 0)
 			(effects
 				(font
@@ -9944,7 +10286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 139.7 105.41 0)
 			(effects
 				(font
@@ -9962,7 +10304,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 105.41 0)
 			(effects
 				(font
@@ -9987,7 +10347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 96.52 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10011,7 +10371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 96.52 101.6 0)
 			(effects
 				(font
@@ -10053,7 +10413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kbd:SW_PUSH")
+		(lib_id "_kbd:SW_PUSH")
 		(at 78.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10077,7 +10437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yoichiro:CherryMX_Choco_Hotswap"
+		(property "Footprint" "_yoichiro:CherryMX_Choco_Hotswap"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -10145,7 +10505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -10163,7 +10523,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -10214,7 +10592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -10232,7 +10610,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 121.92 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -10283,7 +10679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
+		(property "Footprint" "_keebio-parts:Diode-Hybrid-Back"
 			(at 68.58 105.41 0)
 			(effects
 				(font
@@ -10301,7 +10697,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 68.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 68.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 68.58 105.41 0)
 			(effects
 				(font
