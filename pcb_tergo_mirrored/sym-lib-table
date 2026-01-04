@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "_yoichiro")(type "KiCad")(uri "${KIPRJMOD}/_libs/_yoichiro/_yoichiro.kicad_sym")(options "")(descr ""))
+  (lib (name "_kbd")(type "KiCad")(uri "${KIPRJMOD}/_libs/_kbd/_kbd.kicad_sym")(options "")(descr ""))
+  (lib (name "_speaker")(type "KiCad")(uri "${KIPRJMOD}/_libs/_speaker/_speaker.kicad_sym")(options "")(descr ""))
+  (lib (name "_prjlib")(type "KiCad")(uri "${KIPRJMOD}/_libs/_prjlib/_prjlib.kicad_sym")(options "")(descr ""))
+)
