@@ -1,0 +1,3 @@
+### Preparation
+- TBD...
+- After cloning git repository, go to Kicad path variables and define variable `TERGO_LIBS` to point to <repo>/pcb/common/libs, i.e.: `TERGO_LIBS => /home/tim/work/qmk_firmware/keyboards/tergo/pcb/common/libs`

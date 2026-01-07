@@ -1,0 +1,10824 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dc7c1859-b178-4b23-ab82-3e7dafcea953")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_tergo_lib:MJ-4PP-9"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MJ-4PP-9"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_tergo_lib:MJ-4PP-9"
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptable stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MJ-4PP-9_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.905 -1.905)
+					(end -3.175 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -0.635 -1.27) (xy 0 -1.905) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0.635 0) (xy 1.27 -0.635) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.905 1.27) (xy 2.54 0.635) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 2.54)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MJ-4PP-9_1_1"
+				(pin input line
+					(at 5.08 1.905 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0.635 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -0.635 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -1.905 180)
+					(length 2.0066)
+					(name "~"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0.7112 0.7112)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_tergo_lib:PKLCS1212E4001-R1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at -3.82 8.9133 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PKLCS1212E4001-R1"
+				(at -3.823 -11.469 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "_tergo_lib:PKLCS1212E4001-R1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-2 Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "January 22, 2018"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PKLCS1212E4001-R1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4970519&manufacturer=Murata&part_name=PKLCS1212E4001-R1&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 1.5 V - 4kHz 84dB @ 1.5V, 10cm Surface Mount Solder Pads"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PKLCS1212E4001-R1_0_0"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.175) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -1.905 1.27 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "-"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left top)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_tergo_lib:Raspberry_Pi_Pico"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 27.559 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Raspberry_Pi_Pico"
+				(at 0.0508 -27.4574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_tergo_lib:Raspberry_Pi_Pico"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Raspberry_Pi_Pico_0_0"
+				(pin bidirectional line
+					(at -11.43 24.13 0)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 21.59 0)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 16.51 0)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 13.97 0)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 11.43 0)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 8.89 0)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -8.89 0)
+					(length 2.54)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -11.43 0)
+					(length 2.54)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -13.97 0)
+					(length 2.54)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -16.51 0)
+					(length 2.54)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -21.59 0)
+					(length 2.54)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -24.13 0)
+					(length 2.54)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 24.13 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 21.59 180)
+					(length 2.54)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 19.05 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 16.51 180)
+					(length 2.54)
+					(name "3V3_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 13.97 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 11.43 180)
+					(length 2.54)
+					(name "ADC_VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 8.89 180)
+					(length 2.54)
+					(name "GP28_A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "GP27_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "GP26_A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "GP22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -8.89 180)
+					(length 2.54)
+					(name "GP21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -11.43 180)
+					(length 2.54)
+					(name "GP20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -13.97 180)
+					(length 2.54)
+					(name "GP19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -16.51 180)
+					(length 2.54)
+					(name "GP18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -19.05 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -21.59 180)
+					(length 2.54)
+					(name "GP17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -24.13 180)
+					(length 2.54)
+					(name "GP16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Raspberry_Pi_Pico_0_1"
+				(rectangle
+					(start -8.89 26.162)
+					(end 8.89 -25.654)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_tergo_lib:SW_PUSH"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.81 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_PUSH"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_PUSH_0_1"
+				(rectangle
+					(start -4.318 1.524)
+					(end 4.318 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 213.36 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c770ce4-f843-448c-9ed5-f80c4e426f0e")
+	)
+	(junction
+		(at 125.73 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e150ba9-6296-4d89-a27d-c825051382a1")
+	)
+	(junction
+		(at 74.93 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e24746a-8219-484b-9ea9-cb703703c55c")
+	)
+	(junction
+		(at 213.36 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1293bcc8-581c-4717-801e-4d32743dd207")
+	)
+	(junction
+		(at 54.61 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14553ee9-ad2e-4a18-9056-894f835f9422")
+	)
+	(junction
+		(at 74.93 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1863d6f8-f15e-4647-8ac1-ee6e514ae842")
+	)
+	(junction
+		(at 72.39 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19b71c3f-68e6-474e-89fb-cd9a1de5a3aa")
+	)
+	(junction
+		(at 57.15 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d5ad86f-d495-4fec-9f14-e996ef7535f5")
+	)
+	(junction
+		(at 92.71 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eed8ee0-b330-433e-9879-f1d0415c35ac")
+	)
+	(junction
+		(at 107.95 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "212bacd5-9f72-4d8b-ad2d-426499a6d29c")
+	)
+	(junction
+		(at 128.27 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "238d251d-4262-4212-8a35-cc5e21eb5db6")
+	)
+	(junction
+		(at 54.61 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bb0bd3c-4ba0-4dee-8326-be7de1f0b7b4")
+	)
+	(junction
+		(at 31.75 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f875962-d9a0-4c3a-8ce4-4d13a4b6634a")
+	)
+	(junction
+		(at 76.2 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3047e7fc-2b9f-46cd-975e-dbeab19c6353")
+	)
+	(junction
+		(at 54.61 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39ef486c-8fcc-472e-8acb-857a23cff670")
+	)
+	(junction
+		(at 90.17 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ef5566f-18f1-4776-9aaa-cd9067848137")
+	)
+	(junction
+		(at 228.6 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418911ec-2bc8-4128-939f-b740fc48f606")
+	)
+	(junction
+		(at 107.95 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "456e51fd-4ab2-4865-8822-17151e1e49cd")
+	)
+	(junction
+		(at 72.39 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4957cce7-a3c6-4ea8-82e9-e305dede12f6")
+	)
+	(junction
+		(at 74.93 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b057d4f-f091-4c69-8488-a5ca5d8521aa")
+	)
+	(junction
+		(at 30.48 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bed361f-3357-4174-b886-99c980586f22")
+	)
+	(junction
+		(at 29.21 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d30bfd5-f613-4f66-b666-701f55e338c0")
+	)
+	(junction
+		(at 213.36 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec90cb3-ffc9-4bf1-b45f-423b944b7cc2")
+	)
+	(junction
+		(at 125.73 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "526f5af4-7508-4aad-8107-fd2ab7543aa0")
+	)
+	(junction
+		(at 110.49 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61bef2f4-f8a1-4655-a5ed-61b3fc5dce6c")
+	)
+	(junction
+		(at 72.39 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69bf1b11-6bdf-4411-bc4e-558054cec354")
+	)
+	(junction
+		(at 39.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c188c99-e521-4bf1-9b73-70a7e085a119")
+	)
+	(junction
+		(at 92.71 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c44f29a-1dc2-4382-aa25-d59be700eae3")
+	)
+	(junction
+		(at 128.27 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72dcd9f7-b694-4155-a1c4-9b00b4932994")
+	)
+	(junction
+		(at 228.6 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7417b852-0177-42a7-ad9f-ce12d95183e8")
+	)
+	(junction
+		(at 74.93 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "741c8cd0-8a45-4a5b-bdec-2489744343a8")
+	)
+	(junction
+		(at 243.84 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cbac13c-d88e-4b87-b917-cf6ee4ba973c")
+	)
+	(junction
+		(at 125.73 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82fa2295-92cf-4451-8dcf-5f0900400d6a")
+	)
+	(junction
+		(at 90.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d7046d-f16f-4291-9100-15ed075f99d5")
+	)
+	(junction
+		(at 39.37 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853ac82f-149e-4423-8b1f-d2701eeac863")
+	)
+	(junction
+		(at 57.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85db1442-a5f5-4a5c-baab-4d146f8916db")
+	)
+	(junction
+		(at 57.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8acfbccb-7aec-4441-a28c-6bcf4c1dae4d")
+	)
+	(junction
+		(at 128.27 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f43a2e0-dd6c-4ab8-a26b-d0e13665fecf")
+	)
+	(junction
+		(at 110.49 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "947496c5-d0b6-4116-bc92-8bd6872b1934")
+	)
+	(junction
+		(at 54.61 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95fdc2d7-80e4-456b-91dd-74e167c2d27c")
+	)
+	(junction
+		(at 39.37 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d276531-1252-47c8-840a-be704af25ca2")
+	)
+	(junction
+		(at 125.73 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9faef350-4ebc-44d1-9f32-c00d0ff9d9d9")
+	)
+	(junction
+		(at 243.84 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28785b4-bc4d-4ae6-a9f9-5cfe538c4759")
+	)
+	(junction
+		(at 259.08 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d8d2b2-bd1e-48bb-962c-3275be5bd05d")
+	)
+	(junction
+		(at 90.17 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3920272-4b77-4002-98a1-24f1353dac30")
+	)
+	(junction
+		(at 54.61 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ea1d71-974b-4da1-84c9-7d4c1b15bb01")
+	)
+	(junction
+		(at 228.6 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b733dea5-1f08-4597-9fda-421676b2fac4")
+	)
+	(junction
+		(at 107.95 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e68ddd-40af-415a-a08f-d36edb7c98d3")
+	)
+	(junction
+		(at 92.71 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca454575-76bb-4e94-aa6b-c9a7f00e1c27")
+	)
+	(junction
+		(at 125.73 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3db0fd-3206-42e8-a889-1bac23450262")
+	)
+	(junction
+		(at 128.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee1fedb-10f8-4fd4-aa65-b52cdbf91855")
+	)
+	(junction
+		(at 39.37 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3deaa45-7d94-481d-a448-03ca4ec5a0c6")
+	)
+	(junction
+		(at 110.49 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d564f616-4dbe-40e9-a725-c5d40dd0acfc")
+	)
+	(junction
+		(at 90.17 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2da0578-ab25-4db1-92e0-3188b3d090c3")
+	)
+	(junction
+		(at 107.95 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1016277-487d-4fbc-be9e-dfc613468c37")
+	)
+	(junction
+		(at 110.49 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1508fbc-1fbe-466f-997e-43117f6f2143")
+	)
+	(junction
+		(at 107.95 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2a35e4e-98ce-404d-a19d-3ef3fa5cb536")
+	)
+	(junction
+		(at 92.71 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8fce03c-b0ee-4fee-9e95-86f45351c311")
+	)
+	(junction
+		(at 72.39 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe51d099-ab6c-4396-9191-9fcf1da4effe")
+	)
+	(no_connect
+		(at 64.77 25.4)
+		(uuid "085b5df3-d649-4898-acff-88ddc412a22e")
+	)
+	(no_connect
+		(at 64.77 33.02)
+		(uuid "1c01e056-446f-43b5-882d-f6ebc22c669a")
+	)
+	(no_connect
+		(at 64.77 45.72)
+		(uuid "3b282ae8-10ce-4d5e-908e-4e959bf3ec4c")
+	)
+	(no_connect
+		(at 64.77 48.26)
+		(uuid "531acbbd-5b52-435a-8ad9-aeaf75acaf81")
+	)
+	(no_connect
+		(at 41.91 35.56)
+		(uuid "56ef0faf-a6a0-4fca-8507-6cdd15c6c1e5")
+	)
+	(no_connect
+		(at 41.91 33.02)
+		(uuid "70df192e-dc1c-4a42-a65e-7a808acd948a")
+	)
+	(no_connect
+		(at 41.91 58.42)
+		(uuid "7650083f-e4cf-4623-87e3-e3165727768f")
+	)
+	(no_connect
+		(at 41.91 53.34)
+		(uuid "8bf601ab-5ca8-4be4-83f2-0c1214f81e1c")
+	)
+	(no_connect
+		(at 41.91 48.26)
+		(uuid "a8dd5f7c-eefc-482d-9ad2-2f69dcc9cfc0")
+	)
+	(no_connect
+		(at 64.77 43.18)
+		(uuid "b37034ee-3f17-454a-bd2c-76aaa2e4d221")
+	)
+	(no_connect
+		(at 64.77 35.56)
+		(uuid "b40a57e1-a390-413f-a3c3-6cb60e28f18e")
+	)
+	(no_connect
+		(at 236.22 146.05)
+		(uuid "b7ddc6bd-dda9-462c-a9f7-e406361e5c76")
+	)
+	(no_connect
+		(at 64.77 38.1)
+		(uuid "c3f3f738-3b1a-4a94-a1c7-ee64f4f6ed5d")
+	)
+	(no_connect
+		(at 41.91 38.1)
+		(uuid "ccea8d42-e3c3-4a73-a301-ccfacaeb3da1")
+	)
+	(no_connect
+		(at 41.91 40.64)
+		(uuid "dc45e645-dc94-4072-a26c-9e1e31231581")
+	)
+	(no_connect
+		(at 64.77 40.64)
+		(uuid "f9711f08-8b1d-448e-bac5-14ca0ae010c9")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cb90a3-6b07-44ea-9be4-f6a921b79d14")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fa4633-59d2-4d6e-b863-ff0ac832c1e8")
+	)
+	(wire
+		(pts
+			(xy 35.56 142.24) (xy 54.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0114a262-82b2-4fb1-a4b1-0bed02c0c548")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 110.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012b4705-3227-4e63-abef-ea3528635c91")
+	)
+	(wire
+		(pts
+			(xy 74.93 121.92) (xy 74.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01860376-e24f-46cf-abba-83ef5191ad95")
+	)
+	(wire
+		(pts
+			(xy 29.21 30.48) (xy 30.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01db1961-ff58-4e61-80e7-cc758126287b")
+	)
+	(wire
+		(pts
+			(xy 266.7 43.18) (xy 266.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ddf87b-210d-4a95-a26d-0f4b2d453088")
+	)
+	(wire
+		(pts
+			(xy 213.36 120.65) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08994ac7-f3b9-4f20-b48b-bd44e633f6d7")
+	)
+	(wire
+		(pts
+			(xy 31.75 30.48) (xy 41.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a58f9c8-6a7e-44e6-b218-2a2fec3647a9")
+	)
+	(wire
+		(pts
+			(xy 57.15 121.92) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8395c4-ed5b-41f1-806f-17a31846d94a")
+	)
+	(wire
+		(pts
+			(xy 125.73 142.24) (xy 107.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caac075-f2ec-4917-a4bd-32110024034a")
+	)
+	(wire
+		(pts
+			(xy 213.36 153.67) (xy 228.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7ed4c0-129b-4686-8996-1bc5eb605e5f")
+	)
+	(wire
+		(pts
+			(xy 261.62 43.18) (xy 266.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10caff2a-f321-41e5-a2f6-246fdc576ea9")
+	)
+	(wire
+		(pts
+			(xy 35.56 104.14) (xy 54.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1365b266-8a63-4db9-a369-399f09614a95")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 35.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1724ba94-1dbe-4835-bd64-a29b6e71ed31")
+	)
+	(wire
+		(pts
+			(xy 128.27 121.92) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b63e11-2c34-4911-a273-f28bfd0324ae")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f0f633-b6f7-47cb-ab9c-ac3032fddb3a")
+	)
+	(wire
+		(pts
+			(xy 64.77 27.94) (xy 82.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a49356d-025f-4156-9eeb-3641d31e5944")
+	)
+	(wire
+		(pts
+			(xy 259.08 120.65) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea4853e-8f6c-4e33-8ff3-cf9949a39c12")
+	)
+	(wire
+		(pts
+			(xy 107.95 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a35e5f-6a54-438e-97e6-f292bf698864")
+	)
+	(wire
+		(pts
+			(xy 82.55 25.4) (xy 82.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d9c112-a9de-443c-85aa-569228dd47dd")
+	)
+	(wire
+		(pts
+			(xy 228.6 135.89) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2645b0af-a6a0-4c96-8200-254c240e038c")
+	)
+	(wire
+		(pts
+			(xy 259.08 137.16) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d943fd-26ab-4149-9cf1-564e47c34414")
+	)
+	(wire
+		(pts
+			(xy 54.61 154.94) (xy 35.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28325c32-7b7d-450d-bdb4-4455eb89f42e")
+	)
+	(wire
+		(pts
+			(xy 275.59 137.16) (xy 259.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9b3082-6b1f-40dd-a72c-937f2e212d1c")
+	)
+	(wire
+		(pts
+			(xy 228.6 137.16) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc08fec-8d02-4dc7-bf6c-937b274db44d")
+	)
+	(wire
+		(pts
+			(xy 213.36 137.16) (xy 213.36 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eae78a-6c5b-4a72-ab52-6605e2b6c44a")
+	)
+	(wire
+		(pts
+			(xy 143.51 154.94) (xy 125.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33226c53-2d1b-456c-bfa8-6afd7446c1d3")
+	)
+	(wire
+		(pts
+			(xy 143.51 129.54) (xy 125.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3427304d-301f-447d-82ce-b11ee85769cc")
+	)
+	(wire
+		(pts
+			(xy 39.37 88.9) (xy 39.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369a4ca9-96ef-4e8f-8856-55e06f573370")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e5efda-9369-4121-8411-5bf158742767")
+	)
+	(wire
+		(pts
+			(xy 110.49 96.52) (xy 110.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a54a71b-6c56-4f48-bcc2-df2feb7edde9")
+	)
+	(wire
+		(pts
+			(xy 72.39 104.14) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b004e3a-698b-4005-8773-174d2c949032")
+	)
+	(wire
+		(pts
+			(xy 39.37 134.62) (xy 39.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3b81fc-57c2-4666-9b89-ce63fb6cfe7c")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 67.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e008723-35f2-4856-921b-e562efd894c9")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 30.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2e5b6a-b1f5-48f4-a9af-9717500e94d8")
+	)
+	(wire
+		(pts
+			(xy 107.95 142.24) (xy 90.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dbcf82-fd81-4f7f-9afa-8aa1628124b6")
+	)
+	(wire
+		(pts
+			(xy 203.2 153.67) (xy 213.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48009622-8018-4260-8a29-6c65d6bb897b")
+	)
+	(wire
+		(pts
+			(xy 228.6 138.43) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f3b6ef-8073-4c7e-a05a-d0add0f94547")
+	)
+	(wire
+		(pts
+			(xy 92.71 121.92) (xy 92.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6395b5-d352-4eda-8fbf-5028e3b192ec")
+	)
+	(wire
+		(pts
+			(xy 228.6 120.65) (xy 213.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db77b76-9c5d-47b5-a0a8-9178bd0210f0")
+	)
+	(wire
+		(pts
+			(xy 39.37 96.52) (xy 39.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4decf443-a34b-4d48-8354-7ef0c8d923cf")
+	)
+	(wire
+		(pts
+			(xy 261.62 44.45) (xy 265.43 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaf4c8f-5a2d-46a8-b878-bd6a03a66cd3")
+	)
+	(wire
+		(pts
+			(xy 275.59 120.65) (xy 275.59 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504441a3-a91e-41d6-adf5-60eefa5e647d")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517ce749-f2cf-4e4d-af48-37b02cf5d8ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 109.22) (xy 57.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532df62d-1cc2-4dcc-a1c5-0dbf0dacfbb8")
+	)
+	(wire
+		(pts
+			(xy 29.21 68.58) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5409a14e-a7b8-42e5-bf1b-29f8b8d35288")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 90.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55160ba8-b68f-4672-af71-b8fa3cb2ce2b")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.22) (xy 128.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a2b070-1176-4bd3-ae9a-19976ae80ccf")
+	)
+	(wire
+		(pts
+			(xy 90.17 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fb6c45-777f-4e13-88c2-fd2f7ee4578a")
+	)
+	(wire
+		(pts
+			(xy 269.24 45.72) (xy 261.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbc2da5-6b19-4e8e-a9c3-5ff046320763")
+	)
+	(wire
+		(pts
+			(xy 243.84 120.65) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfbb4d3-759b-402f-bf80-5eee4beefb10")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616bf206-9e0e-4c43-9bfc-b097b8ec3bc4")
+	)
+	(wire
+		(pts
+			(xy 143.51 142.24) (xy 125.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618792a0-f047-449f-9840-dd68bdc7e8f1")
+	)
+	(wire
+		(pts
+			(xy 54.61 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63947664-faf5-485f-b43c-2258f9e9f367")
+	)
+	(wire
+		(pts
+			(xy 54.61 154.94) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65043c79-305f-4e04-925a-57fec99a7402")
+	)
+	(wire
+		(pts
+			(xy 143.51 116.84) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f246818-ded5-4876-856a-f609e6a236ea")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855fc230-e7d5-45a8-b17f-2aead011cffe")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856269a9-d244-419a-878d-f7527b8e98cf")
+	)
+	(wire
+		(pts
+			(xy 92.71 109.22) (xy 92.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8669aa92-ada6-4375-a417-3bf5a3d1ad5e")
+	)
+	(wire
+		(pts
+			(xy 259.08 135.89) (xy 259.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c22e9f6-f855-4ac4-aa8f-d1f51dc54936")
+	)
+	(wire
+		(pts
+			(xy 74.93 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cde9d42-749b-41be-a739-193cf33cc547")
+	)
+	(wire
+		(pts
+			(xy 31.75 43.18) (xy 31.75 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2d73b5-bca9-4052-a3ff-2d008d5f5479")
+	)
+	(wire
+		(pts
+			(xy 92.71 147.32) (xy 92.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db9214f-8901-4e36-a2ce-d67f6b41a362")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6482f8-5998-431e-b298-5be70e2857dc")
+	)
+	(wire
+		(pts
+			(xy 90.17 142.24) (xy 72.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa62f3a-ba5a-4acb-9d5d-9cf1d7689330")
+	)
+	(wire
+		(pts
+			(xy 125.73 116.84) (xy 107.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97903ef2-a954-44fc-a9b8-6a7d6a00ad92")
+	)
+	(wire
+		(pts
+			(xy 41.91 43.18) (xy 31.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a60620c-c09d-48c1-bd34-eaa919964272")
+	)
+	(wire
+		(pts
+			(xy 125.73 154.94) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcc7644-d19c-4ef0-8a2b-27eab265ca00")
+	)
+	(wire
+		(pts
+			(xy 80.01 30.48) (xy 80.01 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3e4561-0b8d-461e-adba-486870bf7a58")
+	)
+	(wire
+		(pts
+			(xy 74.93 96.52) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2111a71-b166-4a20-9c8c-8f14632b86a9")
+	)
+	(wire
+		(pts
+			(xy 57.15 88.9) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28555ff-075e-4791-b5fe-34a90c9166e6")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 30.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2914575-a2a9-4101-978b-65456ba2a95f")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a310657f-2b51-47c6-8eb1-c18f577407dc")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 74.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a715046c-5cc8-4e70-a9b4-9b0fbe5d7b40")
+	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 54.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6624d2-4790-4c02-bcda-548cfb7b965e")
+	)
+	(wire
+		(pts
+			(xy 30.48 30.48) (xy 31.75 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afabb1bb-ed61-4483-80df-4b8c58f19e2b")
+	)
+	(wire
+		(pts
+			(xy 243.84 135.89) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01f38d9-2d26-4ba1-b3c7-6c7878a80360")
+	)
+	(wire
+		(pts
+			(xy 92.71 121.92) (xy 92.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06d5cc6-e288-47cc-a762-b0c2ee3aaa1e")
+	)
+	(wire
+		(pts
+			(xy 90.17 116.84) (xy 72.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cebb7d-fe76-4891-89d9-f558e9e28077")
+	)
+	(wire
+		(pts
+			(xy 72.39 129.54) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b603d8d9-faea-4fd2-bcc3-9ce68283302d")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc86ab1c-ba7a-4bae-9f4b-f60235ecfd45")
+	)
+	(wire
+		(pts
+			(xy 39.37 109.22) (xy 39.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdada4c3-ea28-4232-bc0f-7c619f9ee562")
+	)
+	(wire
+		(pts
+			(xy 265.43 44.45) (xy 265.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc28f79-da6a-4e8d-b225-f60b5ad24719")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a0c3a9-d984-475c-82c5-356f87c78b97")
+	)
+	(wire
+		(pts
+			(xy 203.2 120.65) (xy 203.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5158001-1345-4ced-8172-56ac9793ec58")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63d5633-48c9-40e2-81df-338ed4c32bbd")
+	)
+	(wire
+		(pts
+			(xy 125.73 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3daeae-d315-4402-91ce-fb19f53c895a")
+	)
+	(wire
+		(pts
+			(xy 205.74 128.27) (xy 205.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc30cdbd-9243-41dd-9193-0a660be118e1")
+	)
+	(wire
+		(pts
+			(xy 213.36 138.43) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d100c376-b314-48d4-afc0-46c79d80c0de")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 29.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2005cca-2017-4f7c-ab34-e637ad36ab43")
+	)
+	(wire
+		(pts
+			(xy 54.61 104.14) (xy 72.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fa84a4-ddc3-4219-b5d0-209892d65316")
+	)
+	(wire
+		(pts
+			(xy 90.17 129.54) (xy 72.39 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85209ef-5d1f-4446-b903-7a871ab1c1bf")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3b2148-5023-40e6-a07e-4eef12d840de")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec180ef-689e-4764-afcd-6e6b9d86b2a6")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e10014-363c-4125-b93e-b505f81d43d7")
+	)
+	(wire
+		(pts
+			(xy 107.95 116.84) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5358572-f5a4-4424-bd16-0074a88e9fd4")
+	)
+	(wire
+		(pts
+			(xy 228.6 153.67) (xy 243.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede4cd51-71a3-4d5e-a2bd-2bd83f58aae6")
+	)
+	(wire
+		(pts
+			(xy 243.84 137.16) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee47b75b-f19d-4c0f-b810-08e557026e96")
+	)
+	(wire
+		(pts
+			(xy 72.39 116.84) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1071bc9-0345-4332-a715-f4fc96abc096")
+	)
+	(wire
+		(pts
+			(xy 39.37 134.62) (xy 39.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f340ad59-5e14-4ed3-8179-e2554e023ce2")
+	)
+	(wire
+		(pts
+			(xy 64.77 30.48) (xy 74.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f783f52c-221a-49a6-aba0-c8d9574ce82a")
+	)
+	(wire
+		(pts
+			(xy 261.62 41.91) (xy 269.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7bcc17-315b-467b-b609-c49fd3255dde")
+	)
+	(global_label "row1-l"
+		(shape input)
+		(at 35.56 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02537cd9-cc0b-44f6-95cf-10fc6f0c0867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5162 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1-l"
+		(shape input)
+		(at 64.77 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0edf8637-8c43-4f2f-a69e-6d1b816e9d8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4509 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5-l"
+		(shape input)
+		(at 128.27 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e5add71-da3a-40f8-a067-8e37b63bbbb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 80.2191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2-l"
+		(shape input)
+		(at 35.56 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "342c979e-0854-4373-8e3a-f1265180baff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5162 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0-l"
+		(shape input)
+		(at 39.37 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36530686-4ecf-4cce-8d76-6baea2aa99fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 80.2191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row4-l"
+		(shape input)
+		(at 35.56 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45fa569d-0642-4d53-8736-93a08424eb01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5162 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "audio-l"
+		(shape input)
+		(at 233.68 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cb7a805-ec79-43eb-bba1-7dc3994c3014")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.9106 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5-l"
+		(shape input)
+		(at 64.77 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64c5a2a1-11a0-4940-9992-33a75fb38735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4509 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "data-rx-l"
+		(shape input)
+		(at 41.91 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76370429-3df5-4632-90bd-88e572b86f9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.782 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4-l"
+		(shape input)
+		(at 64.77 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "787dbd2e-8f8e-4bd5-9196-f45fcf33e0af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4509 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2-l"
+		(shape input)
+		(at 41.91 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87966683-775c-4009-8408-18e96e307191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8662 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2-l"
+		(shape input)
+		(at 64.77 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c202a17-d579-4810-bd9c-19787953c0f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4509 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset-l"
+		(shape input)
+		(at 64.77 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9dd3284f-7797-40a2-bd94-4a70a9e9bead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.0558 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0-l"
+		(shape input)
+		(at 64.77 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5224d27-70be-4e84-a724-f452aff288c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4509 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "audio-l"
+		(shape input)
+		(at 41.91 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7f33801-4310-4cf1-b4b9-67bc42e31ef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.1406 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "data-tx-l"
+		(shape input)
+		(at 41.91 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9e220bc-d839-4196-b142-4029fc5e41c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8425 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led-l"
+		(shape input)
+		(at 41.91 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aea3439b-eb17-4fbc-8c83-289109a9863c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.4386 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led-l"
+		(shape input)
+		(at 266.7 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b31ce73d-299b-4c36-98a6-6df5722d81d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.1714 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3-l"
+		(shape input)
+		(at 41.91 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b53da6b5-5214-453d-bb67-1c6829bbb692")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8662 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0-l"
+		(shape input)
+		(at 35.56 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2bbfe4e-7885-4366-8a65-729ba5e57dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5162 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1-l"
+		(shape input)
+		(at 57.15 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cab5cc85-fde6-4e7b-8e1b-e870fc5bdbd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 80.2191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "data-rx-l"
+		(shape input)
+		(at 269.24 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfa7d4fe-50a0-447d-bb8f-1a348576dbdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.368 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3-l"
+		(shape input)
+		(at 92.71 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db1dddb2-6600-45d1-99bd-702c41420595")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 80.2191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row4-l"
+		(shape input)
+		(at 41.91 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de89ee8e-4a00-4ad6-a460-7af0c57e5b22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8662 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0-l"
+		(shape input)
+		(at 41.91 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfe8e4fb-174b-4e1b-9290-167b8d2cf5ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8662 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2-l"
+		(shape input)
+		(at 74.93 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dff75bef-facd-4a07-a7ad-7cd026776981")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 80.2191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3-l"
+		(shape input)
+		(at 35.56 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9762a19-172b-4c69-b02f-01c652a7a16a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5162 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4-l"
+		(shape input)
+		(at 110.49 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f08f1aa5-cbe9-4b3f-a998-31476d85b687")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 80.2191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "reset-l"
+		(shape input)
+		(at 241.3 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2375c20-93cf-43b8-8939-cff7bc338a12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0142 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3-l"
+		(shape input)
+		(at 64.77 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3e4d078-635e-4aaf-acaa-e7c6dce19614")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4509 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1-l"
+		(shape input)
+		(at 41.91 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbec0adf-c7e3-4460-8dff-7fe89692da62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8662 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "data-tx-l"
+		(shape input)
+		(at 269.24 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd9521e0-eda5-492c-9dff-91f92471066e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.3075 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 46.99 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8bf00b")
+		(property "Reference" "SW1"
+			(at 46.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 46.99 105.0544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d3ab446-a4d7-4eb1-99fc-9cb2c1a537b7")
+		)
+		(pin "2"
+			(uuid "009a5d4e-095d-47ec-b5db-38c793a88d18")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 54.61 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8c0e5d")
+		(property "Reference" "D1"
+			(at 50.8 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dda2b697-7a69-4c3e-a32f-ab3bd3cdaa2a")
+		)
+		(pin "2"
+			(uuid "d373566e-25ef-45cd-a306-6b71ebf26f4d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 46.99 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8c361a")
+		(property "Reference" "SW2"
+			(at 46.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 46.99 117.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 46.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "401b586c-16d7-4f2f-b6dc-057dbb8f0e00")
+		)
+		(pin "2"
+			(uuid "2d1357db-3fa5-4880-8466-dcb480ccbbce")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 54.61 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8c40ba")
+		(property "Reference" "D2"
+			(at 50.8 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1336d76e-0019-4a05-8753-4868db126520")
+		)
+		(pin "2"
+			(uuid "c519c04c-8a1b-429a-8327-32187bb40ae7")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 46.99 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8c48a7")
+		(property "Reference" "SW3"
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 46.99 130.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0416293d-aab4-4ba4-933d-bea2aeff1a2d")
+		)
+		(pin "2"
+			(uuid "f5bbf19c-5063-4f40-9752-12964bca8af2")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 54.61 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8c559d")
+		(property "Reference" "D3"
+			(at 50.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c73f2c03-919c-4be0-bb58-0255c03efd4c")
+		)
+		(pin "2"
+			(uuid "a0226556-a396-4e6d-998e-e310ccc53c4d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 64.77 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ccb62")
+		(property "Reference" "SW4"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 64.77 105.0544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c4a2239-495a-4a46-b2d6-dc31bc5c26fa")
+		)
+		(pin "2"
+			(uuid "4c097f84-9b95-40d3-9de1-7440b5ed04f1")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 72.39 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8cd695")
+		(property "Reference" "D4"
+			(at 68.58 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 68.58 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b39b12-95e3-4d6a-abe6-cf945f95abe3")
+		)
+		(pin "2"
+			(uuid "e65730f4-c4a4-4ffe-9feb-12fc43dec052")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 64.77 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8cdafe")
+		(property "Reference" "SW5"
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 64.77 117.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b23f365-9e38-4b0a-a07f-ca1b03b19f85")
+		)
+		(pin "2"
+			(uuid "f6b3def0-abb3-4080-a34c-496146beb184")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 72.39 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ce17c")
+		(property "Reference" "D5"
+			(at 68.58 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 68.58 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44735e30-f303-42b9-8d75-8321e49811e2")
+		)
+		(pin "2"
+			(uuid "1a1bab2c-0af2-43a0-87f6-a3619a1616ea")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 64.77 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ce9cd")
+		(property "Reference" "SW6"
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 64.77 130.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a91996b-fa54-46c5-b977-4da2d339645a")
+		)
+		(pin "2"
+			(uuid "fe9de86c-3de7-4155-b152-03a7a19991d6")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 72.39 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8cf484")
+		(property "Reference" "D6"
+			(at 68.58 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 68.58 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb34b607-6107-4290-807b-4f14299be431")
+		)
+		(pin "2"
+			(uuid "5dfb8f93-e4f6-47ec-b627-4e5b0e548ab4")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 82.55 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8dbe32")
+		(property "Reference" "SW7"
+			(at 82.55 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 82.55 105.0544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d3c5f71-5fb8-4d99-b909-7ad0ec52881e")
+		)
+		(pin "2"
+			(uuid "7eb525f4-c9fd-4c61-9b22-fdd518f97c1c")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8dc6ef")
+		(property "Reference" "D7"
+			(at 86.36 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 86.36 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad0f749d-04a6-4ddb-979f-58a8f8614e09")
+		)
+		(pin "2"
+			(uuid "3427d123-61e2-4c57-80e1-efb5d2751d47")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 82.55 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8dce78")
+		(property "Reference" "SW8"
+			(at 82.55 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 82.55 117.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19002b29-5224-49be-94ac-262459ba54cc")
+		)
+		(pin "2"
+			(uuid "f42b451b-73e6-4bc0-8f1a-99efa851cf6f")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8dd7a8")
+		(property "Reference" "D8"
+			(at 86.36 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 86.36 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f6e7d7-dcc9-4ed0-82c7-ca4679dd8ad3")
+		)
+		(pin "2"
+			(uuid "35745192-27d0-434e-8f24-4fa6158c98bd")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 82.55 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ddda1")
+		(property "Reference" "SW9"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 82.55 130.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "429cb33f-f1cb-4d48-a88a-a3883bfde587")
+		)
+		(pin "2"
+			(uuid "8eead9c5-a91e-444d-9e4c-118d327ba4c1")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8de1c9")
+		(property "Reference" "D9"
+			(at 86.36 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 86.36 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455a9644-0742-4f00-9794-dc20db8f03fc")
+		)
+		(pin "2"
+			(uuid "d588ca90-dda2-4fff-af6e-e0f90a0a39e3")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 46.99 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8deb78")
+		(property "Reference" "SW10"
+			(at 46.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 46.99 143.1544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25d00930-baeb-451c-9ea4-b36a16bc4d6f")
+		)
+		(pin "2"
+			(uuid "17f647c8-76b0-46a1-b425-bf1c6c8e9d71")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 54.61 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8df3d9")
+		(property "Reference" "D10"
+			(at 50.8 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d61b15b9-b074-4141-a2ce-0a1343478ca4")
+		)
+		(pin "2"
+			(uuid "fbbeccaa-dbb2-4c2a-b8a4-e86d35e60154")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 100.33 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e46d7")
+		(property "Reference" "SW11"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 100.33 105.0544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36926dd4-ab6f-482d-93ca-aae04e3cbd0c")
+		)
+		(pin "2"
+			(uuid "dd0e28f2-524a-4643-b2cd-dc65e16e902c")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e5177")
+		(property "Reference" "D11"
+			(at 104.14 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 104.14 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08dd1632-dd4d-4b4d-96ad-bb15c3dcc294")
+		)
+		(pin "2"
+			(uuid "5160573f-2fea-4874-8a6a-69330c6a53cd")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 100.33 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e5964")
+		(property "Reference" "SW12"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 100.33 117.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03277b36-b903-4696-927e-2f281d9d5bbc")
+		)
+		(pin "2"
+			(uuid "7411355d-755b-4975-8130-fd8e25cad67d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e61dc")
+		(property "Reference" "D12"
+			(at 104.14 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 104.14 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2185ddc-51b6-404f-a8b4-cb4dffd30778")
+		)
+		(pin "2"
+			(uuid "9942ec2f-039f-4d83-a339-abe9986b4664")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 100.33 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e6997")
+		(property "Reference" "SW13"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 100.33 130.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b202406b-a772-45d0-8be3-5fd90bb325bb")
+		)
+		(pin "2"
+			(uuid "05911c24-1503-458a-9c35-878e88cda6b4")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e6e8e")
+		(property "Reference" "D13"
+			(at 104.14 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 104.14 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba72e1eb-c822-4c13-9e0c-ce2eb3ccdac7")
+		)
+		(pin "2"
+			(uuid "a012bb80-fa8e-495e-8431-65990ddf0aee")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 100.33 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e751d")
+		(property "Reference" "SW14"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 100.33 143.1544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a810a111-b6b4-41e7-9d45-9c701a5edf95")
+		)
+		(pin "2"
+			(uuid "f50e518f-c8b9-4948-933b-43cea39c4eb8")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8e7a42")
+		(property "Reference" "D14"
+			(at 104.14 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 104.14 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88dfa423-1668-4d2c-b0ef-c7a1c78acc90")
+		)
+		(pin "2"
+			(uuid "4c95f4c3-e715-45e3-946c-f27355a4d041")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 118.11 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ed6f3")
+		(property "Reference" "SW15"
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 118.11 105.0544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94016ea5-da75-42ae-82a9-9e2bdd0f6515")
+		)
+		(pin "2"
+			(uuid "56b789df-97a6-4458-8ca2-cdb67c0cadfa")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 125.73 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8edd15")
+		(property "Reference" "D15"
+			(at 121.92 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 121.92 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79182a58-76fc-4e26-aa73-bab841dd1efd")
+		)
+		(pin "2"
+			(uuid "3373e7c4-8107-4ecf-8322-70fe3fda1a7e")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 118.11 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ee3d6")
+		(property "Reference" "SW16"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 118.11 117.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab94d283-0b29-441f-82dc-31e91ae18638")
+		)
+		(pin "2"
+			(uuid "c662b1d0-bf97-4c9f-9147-0faecb601ca2")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 125.73 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8eecc1")
+		(property "Reference" "D16"
+			(at 121.92 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 121.92 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b084015-50c1-4572-82e4-3d8f49f2579c")
+		)
+		(pin "2"
+			(uuid "6209f4f4-6e73-45aa-8230-8bf134c2c703")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 118.11 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ef2ba")
+		(property "Reference" "SW17"
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 118.11 130.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d87fdcda-226f-4b8a-93ae-b7e18fa53acf")
+		)
+		(pin "2"
+			(uuid "f4aa758d-268d-494f-9aa1-e2b29d93f3b1")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 125.73 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8ef8f3")
+		(property "Reference" "D17"
+			(at 121.92 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 121.92 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "026aa670-5c22-48ee-9345-8a952fe95617")
+		)
+		(pin "2"
+			(uuid "f6181b4a-72b0-4242-b99a-7ccab2dc0493")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 118.11 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8f0e86")
+		(property "Reference" "SW18"
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 118.11 143.1544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 118.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35e42bca-172a-47d7-af69-8d159a93cdaa")
+		)
+		(pin "2"
+			(uuid "80fa3cf2-79fc-4aa1-a320-c2c8818d4c73")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 125.73 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8f28c3")
+		(property "Reference" "D18"
+			(at 121.92 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 121.92 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 125.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 125.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6184cabc-0578-452d-af65-510397769962")
+		)
+		(pin "2"
+			(uuid "8b3b13ef-be7c-4311-9401-a23a86fcc349")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 135.89 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fb4d9")
+		(property "Reference" "SW20"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 135.89 105.0544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9c13232-650b-4fb7-a96b-3edc29613751")
+		)
+		(pin "2"
+			(uuid "6b0a1a47-3ccb-495e-87b2-a8b10343dc6c")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fbd68")
+		(property "Reference" "D19"
+			(at 139.7 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 139.7 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19da198b-4a68-4388-9449-8b18f766d107")
+		)
+		(pin "2"
+			(uuid "7de9e503-ef79-4e1b-8577-de97a826558f")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 135.89 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fc762")
+		(property "Reference" "SW21"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 135.89 117.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a0662f-3959-4397-bdfe-63a2aa836ca4")
+		)
+		(pin "2"
+			(uuid "e9a1c4fc-e206-4153-b753-d7d498bedf0d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fcef4")
+		(property "Reference" "D20"
+			(at 139.7 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 139.7 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d2d9cb5-575d-4886-b1da-b6666401336e")
+		)
+		(pin "2"
+			(uuid "c947d341-044e-4a95-90db-024433f36611")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 135.89 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fd506")
+		(property "Reference" "SW22"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 135.89 130.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e4a58d-8f5f-4732-a381-3bddf29c38e3")
+		)
+		(pin "2"
+			(uuid "4ac34e3a-7e25-4d39-86e7-2d8a2a07d290")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fda2b")
+		(property "Reference" "D21"
+			(at 139.7 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 139.7 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "104f739f-1156-4832-84a8-443d155d111a")
+		)
+		(pin "2"
+			(uuid "10215a8b-2bcb-4376-9734-85e036c3a052")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 135.89 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fe2e0")
+		(property "Reference" "SW23"
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 135.89 143.1544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "060567e7-da76-443e-9727-ab1ff49da7ad")
+		)
+		(pin "2"
+			(uuid "f7d56f17-9f7c-4c5b-a141-70467dad6c98")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f8fe81c")
+		(property "Reference" "D22"
+			(at 139.7 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 139.7 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11c9f1e2-b5a4-431b-a658-5482199da025")
+		)
+		(pin "2"
+			(uuid "d90991eb-57af-42d1-ba26-723217f309e9")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 259.08 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005f9d94a6")
+		(property "Reference" "D51"
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 259.588 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Yoichiro-LED_WS2812B"
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 256.54 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3ae8281-6a10-479d-af01-48a0a5cdab93")
+		)
+		(pin "2"
+			(uuid "2efc2f7e-7ba6-4ee3-a7b0-b8543b274791")
+		)
+		(pin "3"
+			(uuid "4bfa9f00-65ce-48bb-9692-f4d6ed23bd34")
+		)
+		(pin "4"
+			(uuid "c4f8e878-0423-41d3-85fa-46f38983c67a")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 24.13 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa3854c")
+		(property "Reference" "#PWR01"
+			(at 24.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 24.511 179.7558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a886577-f7da-4fd1-a679-d33988c4b8ea")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 24.13 184.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa3bd04")
+		(property "Reference" "#FLG01"
+			(at 24.13 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 24.13 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 24.13 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c54fdce-28e8-4f72-bb25-0bf3b6f09690")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 35.56 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa3f2bb")
+		(property "Reference" "#FLG02"
+			(at 35.56 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 179.7558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "697602a5-614a-4354-9314-267df5fc4571")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa513eb")
+		(property "Reference" "#PWR03"
+			(at 35.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.687 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a283df1a-c852-4e3f-9b54-5d33582cdb9f")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa8ccf9")
+		(property "Reference" "#PWR02"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.527 34.8742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21df9cf4-ee37-4eee-9e69-edb257038a26")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa91fc8")
+		(property "Reference" "#PWR08"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.137 39.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1054fd-c7d0-45b6-8fa8-08cb2a240093")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 82.55 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa94e0c")
+		(property "Reference" "#PWR07"
+			(at 82.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 82.931 21.0058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ed815d-a899-47b9-84f7-c953d72906b6")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 248.92 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa99e12")
+		(property "Reference" "SW19"
+			(at 248.92 20.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_RESET"
+			(at 248.92 22.5044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:ResetSW"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "882a1081-281c-4a33-b692-1effa9edf60f")
+		)
+		(pin "2"
+			(uuid "861d6c30-1d76-48dc-a791-7e46a24df7d0")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fa9ae61")
+		(property "Reference" "#PWR013"
+			(at 256.54 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.667 31.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ebda53-f1f5-41fe-9d10-247f89146f0d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:MJ-4PP-9")
+		(at 256.54 43.815 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fac4f3d")
+		(property "Reference" "J3"
+			(at 257.3274 36.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MJ-4PP-9"
+			(at 257.3274 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:MJ-4PP-9"
+			(at 263.525 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 263.525 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"
+			(at 256.54 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "23133abe-63f6-4718-9f66-696cfc78619f")
+		)
+		(pin "B"
+			(uuid "8d936772-f6fa-4d42-bb01-ee988a455edf")
+		)
+		(pin "C"
+			(uuid "e0aabe4a-ed50-419d-9781-f8a9ebaa7d82")
+		)
+		(pin "D"
+			(uuid "de3e121c-5d41-414b-b665-b01bc8d83612")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fad51fa")
+		(property "Reference" "#PWR09"
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.557 52.6542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aed3f367-ed2e-4ee0-a9c1-a1d33fea10e8")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fadb33a")
+		(property "Reference" "#PWR012"
+			(at 266.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 267.081 36.2458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 266.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25dc4829-70c8-4db4-9bff-44d835c59375")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 243.84 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fb538f1")
+		(property "Reference" "D49"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 244.602 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Yoichiro-LED_WS2812B"
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 241.3 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9841c2b9-2c46-41fc-8c24-122fa5d20f4a")
+		)
+		(pin "2"
+			(uuid "65bde0e2-20f7-4c56-b98c-30ae5c9aa01e")
+		)
+		(pin "3"
+			(uuid "9cafc31e-dffd-4e45-b13e-d3a906b7e155")
+		)
+		(pin "4"
+			(uuid "b9c892cf-7f05-47f9-87cb-1a94f870c87f")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 228.6 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fb54b63")
+		(property "Reference" "D47"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 229.362 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Yoichiro-LED_WS2812B"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 226.06 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed7de839-e129-414f-8e14-71fdbe125c91")
+		)
+		(pin "2"
+			(uuid "3688310b-0d7d-49d0-9805-c6f97b9dc709")
+		)
+		(pin "3"
+			(uuid "4aee0067-e389-41e2-b2dc-5a687655c0ac")
+		)
+		(pin "4"
+			(uuid "ed5b36bd-5863-4495-b54f-1d3f47fadc0c")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 213.36 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fb67001")
+		(property "Reference" "D45"
+			(at 219.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.868 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Yoichiro-LED_WS2812B"
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 210.82 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07bf9ba0-bd26-4829-bd7d-7c82c8614802")
+		)
+		(pin "2"
+			(uuid "185a2dae-3393-4332-ba5e-3914e863942a")
+		)
+		(pin "3"
+			(uuid "4cee8a10-9063-44ba-9db4-eb261e5b1d12")
+		)
+		(pin "4"
+			(uuid "4cdc2094-e0b8-4fa3-897a-4b8056196d05")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 213.36 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fbf40a1")
+		(property "Reference" "D46"
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 222.758 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Yoichiro-LED_WS2812B"
+			(at 214.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 215.9 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92874b34-802d-4876-b079-fdd7019bcfd6")
+		)
+		(pin "2"
+			(uuid "c317289b-758e-4756-966a-d5c7884fc25f")
+		)
+		(pin "3"
+			(uuid "c010f62a-c7f8-416f-a904-641a11211732")
+		)
+		(pin "4"
+			(uuid "1f31d788-18e7-4209-9f6d-29d4f834b6dd")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 228.6 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fbfa037")
+		(property "Reference" "D48"
+			(at 222.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 237.998 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Yoichiro-LED_WS2812B"
+			(at 229.87 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 231.14 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b130f7-989d-41d7-858a-6eb8e0f67e4e")
+		)
+		(pin "2"
+			(uuid "1e33bd51-5d19-4396-a6ed-91f9111a8c5a")
+		)
+		(pin "3"
+			(uuid "fe97108c-9388-4178-82eb-c489f073e39f")
+		)
+		(pin "4"
+			(uuid "80f953d2-7f61-4e96-9b4a-bc6d99da7fde")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 275.59 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fe33df1")
+		(property "Reference" "#PWR010"
+			(at 275.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 275.971 116.2558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 275.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f06b1ae3-79d0-4cf0-baa9-832f1c48ea8e")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005fe679c5")
+		(property "Reference" "#PWR011"
+			(at 243.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.967 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed70f90-3c21-4a83-be26-05ab3be8c30d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:Raspberry_Pi_Pico")
+		(at 53.34 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614b8506")
+		(property "Reference" "U1"
+			(at 53.34 19.177 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Raspberry_Pi_Pico"
+			(at 53.34 21.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Raspberry_Pi_Pico"
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572a3f0e-c64b-4e67-94a6-6ff4dbee2579")
+		)
+		(pin "10"
+			(uuid "b34c095e-0a33-4dc4-a957-421ea1d68830")
+		)
+		(pin "11"
+			(uuid "a2c5feaa-8471-4775-9f46-bf32f3985a86")
+		)
+		(pin "12"
+			(uuid "9d3d1742-bafb-4126-902e-605a2e1e35d0")
+		)
+		(pin "13"
+			(uuid "a5df9661-5df3-4aa6-9f8d-d57c96e620c6")
+		)
+		(pin "14"
+			(uuid "4c8d30b9-cb3a-4ad8-8749-61dd7f635d49")
+		)
+		(pin "15"
+			(uuid "9b82df83-6901-4f7e-8da8-6aef52a68497")
+		)
+		(pin "16"
+			(uuid "ad34ffb4-9f01-4579-960b-927ae75fc620")
+		)
+		(pin "17"
+			(uuid "9f19345d-66cb-4601-bac7-03a2b5193449")
+		)
+		(pin "18"
+			(uuid "6a3e56a1-6927-454b-8dab-90e5e4dfc76c")
+		)
+		(pin "19"
+			(uuid "76c074b8-aa40-41ef-beda-ae5582aadca3")
+		)
+		(pin "2"
+			(uuid "3edc3dd8-2333-470c-92f3-a283d739f168")
+		)
+		(pin "20"
+			(uuid "7fe395c9-fe5c-44b4-a617-586836cdf68d")
+		)
+		(pin "21"
+			(uuid "7daacfdc-29f9-45ee-8ae4-8baf1780251b")
+		)
+		(pin "22"
+			(uuid "2b771c7e-b396-4660-9a47-a3bb2cb21ca1")
+		)
+		(pin "23"
+			(uuid "9163dc16-5cde-4b12-8026-7223b919a6d1")
+		)
+		(pin "24"
+			(uuid "b0a153b1-34d6-4d1f-abcb-17b8b3c830a2")
+		)
+		(pin "25"
+			(uuid "68999cdd-b9c5-4923-93e7-f052553bb131")
+		)
+		(pin "26"
+			(uuid "1f6ed07f-85b3-4d00-90b4-63aa332445a2")
+		)
+		(pin "27"
+			(uuid "bed44716-5c1d-4e47-a9d7-59c581bc4e58")
+		)
+		(pin "28"
+			(uuid "dc1800cf-a1a5-4ff3-a63c-1a7b258ca745")
+		)
+		(pin "29"
+			(uuid "95aeb35b-5428-4ae1-8455-50f035bf0763")
+		)
+		(pin "3"
+			(uuid "a6797c35-efdf-44b2-979f-dc18fbe7a005")
+		)
+		(pin "30"
+			(uuid "34cb1290-cbf7-4c55-aeb1-de2a36a3fc93")
+		)
+		(pin "31"
+			(uuid "835623bd-d4df-45e6-be25-79f41b4aa704")
+		)
+		(pin "32"
+			(uuid "93ee7b39-d1ca-4cd5-b5fa-474993f19430")
+		)
+		(pin "33"
+			(uuid "d01d873e-1886-415f-9c95-b17b733f474c")
+		)
+		(pin "34"
+			(uuid "c8e6c733-7eb6-4e37-b946-8d53d9ad8de4")
+		)
+		(pin "35"
+			(uuid "745b9326-ed7a-42bf-8254-3376fe5628d8")
+		)
+		(pin "36"
+			(uuid "192ae3a7-99d7-4712-9866-b313a991b471")
+		)
+		(pin "37"
+			(uuid "6ec7bb59-88d3-430f-8ed9-7436e95cd927")
+		)
+		(pin "38"
+			(uuid "cf6c4ce0-8453-48d2-a807-cd8d5aa0a7f2")
+		)
+		(pin "39"
+			(uuid "79b750e2-d681-4be1-803e-075bb9e2416c")
+		)
+		(pin "4"
+			(uuid "3ec275fc-c160-4966-8f45-4cd2b3e4ed77")
+		)
+		(pin "40"
+			(uuid "449b64dc-8784-4305-aee3-672b28a821e4")
+		)
+		(pin "5"
+			(uuid "3e5ab24e-8ab5-49f7-9d40-16bea66a1402")
+		)
+		(pin "6"
+			(uuid "0e4149d8-42d0-4fbe-adbe-eafc31ac8a00")
+		)
+		(pin "7"
+			(uuid "0c520d28-d926-4b10-bef9-03dfd26bc64a")
+		)
+		(pin "8"
+			(uuid "e00c72c5-1fa2-4249-a2d2-eab31636b678")
+		)
+		(pin "9"
+			(uuid "8d79ed7e-be8a-4d64-9d15-9a39143649cb")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:PKLCS1212E4001-R1")
+		(at 241.3 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614d0a3e")
+		(property "Reference" "LS1"
+			(at 243.9416 42.0116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PKLCS1212E4001-R1"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_tergo_lib:PKLCS1212E4001-R1"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Murata Electronics"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "January 22, 2018"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Field5" "Manufacturer Recommendations"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Field6" "3.0 mm"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-2 Murata"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=eda"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "January 22, 2018"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PKLCS1212E4001-R1/Murata/view-part/?ref=snap"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PKLCS1212E4001-R1"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4970519&manufacturer=Murata&part_name=PKLCS1212E4001-R1&search_term=None"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 1.5 V - 4kHz 84dB @ 1.5V, 10cm Surface Mount Solder Pads"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "e30a29a0-8af0-4133-a6ba-a0779be8efb3")
+		)
+		(pin "P"
+			(uuid "6a5e8a16-b74a-4bac-9117-8aaf0979091f")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614f92f3")
+		(property "Reference" "#PWR04"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.427 52.6542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0af5159-a8ab-401d-9e6c-c130d36841f9")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614faf78")
+		(property "Reference" "R1"
+			(at 237.49 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 237.49 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Resistor-Hybrid-Back"
+			(at 237.49 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7551c2ac-498c-4415-8a38-21854a62cc2e")
+		)
+		(pin "2"
+			(uuid "71d0e52b-424a-41bc-b352-e507e825b0ed")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 143.51 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07aa226c-c254-488b-a937-cda0ed2cd08c")
+		(property "Reference" "D61"
+			(at 139.7 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 139.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ed555c-64e6-43b9-b1ba-1518a1f0f1b3")
+		)
+		(pin "2"
+			(uuid "fdfeff06-4481-48d5-a897-1d017eed2c1b")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 82.55 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09a7c9f3-3a46-47b1-9d02-13965ed0ffab")
+		(property "Reference" "SW49"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 82.55 92.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be6a91f9-3090-4f54-9369-76c94514e9aa")
+		)
+		(pin "2"
+			(uuid "f95bf9a9-9662-43be-a5d6-333578860566")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 118.11 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21eae6a0-5c51-4c2c-b482-ac2607c4a4d6")
+		(property "Reference" "SW51"
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 118.11 92.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aab96d6-4daa-4df9-bd49-188556156ddc")
+		)
+		(pin "2"
+			(uuid "1da57a8d-6b2b-45c3-9515-baa941bd0ded")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 54.61 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d6801c-94b3-4159-948f-d5c21f34a28d")
+		(property "Reference" "D50"
+			(at 50.8 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 50.8 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc38e66-177e-4159-b2c6-237eda634387")
+		)
+		(pin "2"
+			(uuid "8ea28b35-20f5-4ad2-8a75-919edcf4523d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 64.77 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "305c9be9-20e4-4140-b5fb-63c488f23f0b")
+		(property "Reference" "SW48"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 64.77 92.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d7791d-1c85-44f1-aef1-c6bf9a76ea4d")
+		)
+		(pin "2"
+			(uuid "31405ea9-f862-4ee4-a530-7e05ad901673")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4477a523-fc88-440d-92fc-36e6bd92b492")
+		(property "Reference" "#PWR0101"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 70.485 53.7738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516816c5-1dbd-458b-a54f-020d1cee475a")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 72.39 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70a63ff2-1e3b-4025-b0e2-228a2478894e")
+		(property "Reference" "D52"
+			(at 68.58 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 68.58 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66bcd96-808c-464f-8b2c-88eecd9c2d1d")
+		)
+		(pin "2"
+			(uuid "8bca994a-1e5a-4723-9eda-d4bb334d6043")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 135.89 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "931baff1-a2da-4589-80d7-1448ded87720")
+		(property "Reference" "SW52"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 135.89 92.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d4763d3-73cb-4453-b216-6db3265b9da3")
+		)
+		(pin "2"
+			(uuid "8abb05b8-fd30-45db-af84-a8c1b7f65ce0")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 46.99 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94c7bf13-c199-4654-84ba-687778f19e9f")
+		(property "Reference" "SW47"
+			(at 46.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 46.99 92.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 46.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c810a5-601c-4b25-8228-4d2d6bc3b557")
+		)
+		(pin "2"
+			(uuid "73d4977a-1235-4a9a-b442-ca6cd1dab8be")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2d3d2d9-291c-4cc2-bc62-47ce926b954e")
+		(property "Reference" "D58"
+			(at 86.36 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 86.36 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51bcfb9f-4194-42a1-871b-98b24969ef0a")
+		)
+		(pin "2"
+			(uuid "ddb4f6dc-953a-4ed1-aec7-e726fce564c0")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 125.73 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d11571ed-d0bd-460c-b87a-d31c77b2844b")
+		(property "Reference" "D60"
+			(at 121.92 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 121.92 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ccf217-c4fc-447a-afda-f8c545fc2006")
+		)
+		(pin "2"
+			(uuid "f41a2b6f-2659-4bf0-8068-47bd5ca95f1d")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edb61999-b16b-4742-b613-58f033711450")
+		(property "Reference" "D62"
+			(at 104.14 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 104.14 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_tergo_lib:Keebio-Diode-Hybrid-Back"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088039a4-0afa-4f76-a9da-b23f676e891b")
+		)
+		(pin "2"
+			(uuid "516747d2-a204-42b9-b3c9-8fe46947e676")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_tergo_lib:SW_PUSH")
+		(at 100.33 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef8284c6-25aa-4cce-a991-ee4142e51057")
+		(property "Reference" "SW50"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 100.33 92.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5be8f7c5-53fa-4a43-aeec-54a41f976477")
+		)
+		(pin "2"
+			(uuid "7a7644f7-3207-4112-b547-19c9db98f14a")
+		)
+		(instances
+			(project "tim_jiran_mod"
+				(path "/579b72f4-1d13-459c-a299-e3e510baa469/4723d6d9-488c-4fd0-9659-31c95b2b7519"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
