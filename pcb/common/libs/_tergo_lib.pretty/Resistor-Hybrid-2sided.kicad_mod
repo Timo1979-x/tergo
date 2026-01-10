@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(property "Reference" "R**"
 		(at -0.0254 1.4 0)
-		(layer "B.SilkS")
-		(uuid "a77021f7-0ed6-4688-bf12-7169a80f99f3")
+		(layer "Dwgs.User")
+		(uuid "52306c54-70c1-456c-97d3-7cb1b404c648")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +19,7 @@
 		(at 0 -1.925 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "2d74c8b5-a506-4914-b725-1c577d92d979")
+		(uuid "e9f0323d-6d74-4e54-9a98-19632332d5c0")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6571c427-f244-4730-99b6-55f2a5a92a23")
+		(uuid "b13229ac-661b-46d2-9d15-6f822d1ed6ca")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ac2f2ff-9a9e-4440-9c74-f66ec66cfed2")
+		(uuid "30f6594e-edf5-48c6-8945-90843a40328f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -372,69 +372,73 @@
 		(layer "B.SilkS")
 		(uuid "af59b923-3214-47ed-a192-f5664175f05a")
 	)
-	(pad "1" smd rect
-		(at 1.3892 0)
-		(size 1.6 1.2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "463daa7a-3f61-449d-b64e-b5b53bac74b2")
-	)
-	(pad "1" smd rect
-		(at 1.4 0)
-		(size 1.6 1.2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "710234df-bf57-4fb9-a8b5-da0f7219129a")
-	)
-	(pad "1" smd rect
-		(at 2.4892 0)
-		(size 2.9 0.5)
-		(layers "B.Cu")
-		(uuid "7973a774-5ed0-4f8c-853d-8522fa5cd17c")
-	)
-	(pad "1" smd rect
-		(at 2.5 0)
-		(size 2.9 0.5)
-		(layers "F.Cu")
-		(uuid "82dffecf-53d4-4e0b-bced-e52e3363f69a")
-	)
-	(pad "1" thru_hole rect
-		(at 3.9 0)
-		(size 1.6 1.6)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "31214d86-70a6-402b-a974-0e237d77fe3e")
-	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -3.9 0)
 		(size 1.6 1.6)
-		(drill 1)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d6e97dc6-fb2c-4023-b1b4-d17f000c3498")
 	)
-	(pad "2" smd rect
+	(pad "1" smd rect
 		(at -2.5 0)
 		(size 2.9 0.5)
 		(layers "F.Cu")
 		(uuid "6a73570d-bab4-42c8-8fa3-0a9dbb8a3162")
 	)
-	(pad "2" smd rect
-		(at -2.5 0)
-		(size 2.9 0.5)
-		(layers "B.Cu")
-		(uuid "ad652082-c13d-4f52-87a9-0a95da5bf275")
+	(pad "1" thru_hole circle
+		(at -1.4 0)
+		(size 1 1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e0cfe8e-6b1c-449f-a839-c430dffdfa77")
 	)
-	(pad "2" smd rect
+	(pad "1" smd rect
 		(at -1.4 0)
 		(size 1.6 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "95ed9182-31ca-4ab7-9c19-12476e8e9ffd")
 	)
-	(pad "2" smd rect
-		(at -1.4 0)
+	(pad "1" smd rect
+		(at -1.397 0)
 		(size 1.6 1.2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "ca104877-fcce-465c-b130-10c4085d1f3a")
+		(uuid "ac9736ed-7767-47df-b09f-5244ddc64f04")
+	)
+	(pad "2" thru_hole circle
+		(at 1.4 0)
+		(size 1 1)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88dc7845-e464-4197-95c6-54c6a5ba7dd6")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "710234df-bf57-4fb9-a8b5-da0f7219129a")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1.6 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d64642a2-65ea-4c4b-a818-7e85d41ae995")
+	)
+	(pad "2" smd rect
+		(at 2.5 0)
+		(size 2.9 0.5)
+		(layers "F.Cu")
+		(uuid "82dffecf-53d4-4e0b-bced-e52e3363f69a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.9 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31214d86-70a6-402b-a974-0e237d77fe3e")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Diodes_SMD.3dshapes/D_SOD-123.step"

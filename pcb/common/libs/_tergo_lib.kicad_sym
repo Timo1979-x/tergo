@@ -1549,6 +1549,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "_tergo_lib:CherryMX_Choco_Hotswap"

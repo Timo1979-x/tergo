@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "R**"
-		(at -6.250776 0 0)
+		(at -0.1 -1.1 0)
 		(layer "B.SilkS")
 		(uuid "3bc9dca8-20e4-4803-ab31-cffffb1ad57b")
 		(effects
@@ -51,17 +51,7 @@
 			)
 		)
 	)
-	(attr smd)
-	(fp_line
-		(start -3.302 0)
-		(end -2.794 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "78a40001-9def-47c0-af7d-349834531c34")
-	)
+	(attr through_hole)
 	(fp_line
 		(start -2.794 -0.762)
 		(end -2.54 -1.016)
@@ -213,16 +203,6 @@
 		(uuid "4205d815-4339-40a6-bcd4-6cea3469ade9")
 	)
 	(fp_line
-		(start 2.794 0)
-		(end 3.302 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "f4adfd89-1d07-4bca-b9e8-c7b7b5a5edb8")
-	)
-	(fp_line
 		(start 2.794 0.762)
 		(end 2.54 1.016)
 		(stroke
@@ -232,6 +212,17 @@
 		(layer "B.SilkS")
 		(uuid "6ec66dc5-8733-4454-a7fd-b9231a70ffa9")
 	)
+	(fp_rect
+		(start -4.9 -1.3)
+		(end 4.9 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "968b497e-896a-44a0-ae76-48214ea06425")
+	)
 	(pad "1" smd rect
 		(at 1.35 0)
 		(size 1.5 1.2)
@@ -239,11 +230,10 @@
 		(uuid "01996943-e732-4203-9360-5e0da9172418")
 	)
 	(pad "1" smd rect
-		(at 2.5 0)
-		(size 2.9 0.5)
+		(at 2.6 0)
+		(size 1.2 0.5)
 		(layers "B.Cu")
-		(solder_mask_margin -999)
-		(uuid "4ba65525-ebd1-47f3-abea-c70d0b784ae6")
+		(uuid "7b0347b8-b9aa-42e9-be18-f34cabc09cce")
 	)
 	(pad "1" thru_hole circle
 		(at 3.9 0)
@@ -262,11 +252,10 @@
 		(uuid "0c5d8a11-4080-432d-ac4a-295f4b4f8f8a")
 	)
 	(pad "2" smd rect
-		(at -2.5 0)
-		(size 2.9 0.5)
+		(at -2.6 0)
+		(size 1.2 0.5)
 		(layers "B.Cu")
-		(solder_mask_margin -999)
-		(uuid "d4a75421-1671-44f7-8698-e24571ac399e")
+		(uuid "1d899143-cd52-4230-bb9f-e2a6a7120984")
 	)
 	(pad "2" smd rect
 		(at -1.35 0)
